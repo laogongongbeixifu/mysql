@@ -23,14 +23,11 @@
     * rm <文件名>：删除文件
 4. 创建github用户，创建outlook邮箱
 5. 基本文件夹操作：
-> touch  file：创建文件
->> mv file   file2：移动文件
-
->> mv file  /home/linux/：移动文件
-
->> ls -al：查看文件夹下文件
-.
->> cat  file：浏览文件
+* touch  file：创建文件
+* mv file   file2：移动文件
+* mv file  /home/linux/：移动文件
+* ls -al：查看文件夹下文件  .
+* cat  file：浏览文件
 
 ## 20170613:+1:
 
@@ -38,7 +35,18 @@
 2. 人物介绍
 3. 了解Linux的起源发展以及相关知识
 4. git 基本命令操作
+* 版本回退：git reset --hard commitID
+* git log：查看已提交
+* touch .gitignore：从仓库中忽略
+* git format-patch -p1：生成patch
+* git am patch-name: 打patch
 5. 数据的删除与恢复,删除本地文件删除rm <文件名> 恢复 git checkout <文件名> ,仓库文件删除 git rm <文件名> 提交 git commit
+6. 分支操作：
+* git branch branch-name:创建新的分支
+* git checkout -b branch-name：从任何的地方创建分支, 并切换到新创建的分支上.
+* git branch -av：现实分支
+* git checkout branch-name：分支切换
+* git branch -D branch-name：删除分支
 
 ## 20170614:+1:
 
@@ -47,7 +55,11 @@
 3. ubuntu 操作系统的安装
 4. shell 解释器的介绍
 5. 文本编辑器Vim的基本使用
-
+6. git 远程仓库：
+* git remote add origin url：添加远程仓库
+* git fetch origin：将远程仓库信息同步到本地
+* git push origin master：同步master分支
+* git push -u origin :branch-name： 删除远程分支
 ## 20170615:+1:
 
 1. 介绍了mysql的背景
