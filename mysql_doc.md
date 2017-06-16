@@ -24,4 +24,7 @@
 1. 介绍了mysql的背景
 2. 更新源
 3. 安装mysql
-     * Apache安装
+4. Apache安装
+5. workbench 安装
+6. 了解MySQL 命令行操作
+7. 建立三个数据库information,school,score
